@@ -7,6 +7,12 @@ The app lets users register, log in, and manage a personal address book of conta
 (create, search, update, delete) using a classic LAMP stack (Linux, Apache, MySQL, PHP)
 with an HTML/CSS/JavaScript frontend.
 
+> **Your Role (Minh Thien Pham)**  
+> I implemented the PHP backend APIs in `/LAMPAPI`  
+> (**Login, Register, AddContact, UpdateContact, DeleteContact, SearchContacts**).  
+> You can view that code here:  
+> 👉 [`/LAMPAPI` folder](https://github.com/MinhThien-Pham/COP4331-Team10-Project1/tree/main/LAMPAPI)
+
 > This repository is a **fork** of the original team project by  
 > Jackson Cammack and teammates, maintained here by **Minh Thien Pham**
 > to document the project and personal API contributions.
