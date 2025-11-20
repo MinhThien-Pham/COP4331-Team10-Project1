@@ -76,8 +76,8 @@ This project includes an OpenAPI/Swagger specification for the PHP LAMP APIs
 ├── css/              # Stylesheets
 ├── images/           # UI images / assets
 ├── js/               # Frontend JavaScript (API calls, DOM updates)
-└──docs/
-│   └── swagger.yaml  
+├── docs/
+│   └── swagger.yaml
 ├── contacts.html     # Contacts UI (CRUD + search)
 ├── index.html        # Landing / login page
 ├── register.html     # Registration page
