@@ -9,6 +9,9 @@ The APIs here power user authentication and full contact CRUD (create, search, u
 > **Maintainer of this folder**: **Minh Thien Pham**  
 > Role: Implemented and maintained the PHP API endpoints in `LAMPAPI`.
 
+> API docs: See the Swagger/OpenAPI spec at
+> [`../docs/swagger.yaml`](../docs/swagger.yaml).
+
 ---
 
 ## Overview

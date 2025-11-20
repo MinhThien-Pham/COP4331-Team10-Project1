@@ -53,14 +53,31 @@ with an HTML/CSS/JavaScript frontend.
 
 ---
 
+## API Documentation (Swagger)
+
+This project includes an OpenAPI/Swagger specification for the PHP LAMP APIs
+(Login, Register, AddContact, SearchContacts, UpdateContact, DeleteContact).
+
+- Swagger file: [`docs/swagger.yaml`](./docs/swagger.yaml)
+
+---
+
 ## Project Structure
 
 ```text
 .
-├── LAMPAPI/          # PHP endpoints (Login, Register, AddContact, etc.)
+├── LAMPAPI/          # PHP endpoints
+│   ├── AddContact.php
+│   ├── DeleteContact.php
+│   ├── Login.php
+│   ├── Register.php
+│   ├── SearchContacts.php
+│   └── UpdateContact.php
 ├── css/              # Stylesheets
 ├── images/           # UI images / assets
 ├── js/               # Frontend JavaScript (API calls, DOM updates)
+└──docs/
+│   └── swagger.yaml  
 ├── contacts.html     # Contacts UI (CRUD + search)
 ├── index.html        # Landing / login page
 ├── register.html     # Registration page
